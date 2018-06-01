@@ -17,7 +17,9 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += \
+    login.ui \
+    openusbtoken.ui
 
 RESOURCES += \
     causertool.qrc
