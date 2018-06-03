@@ -12,17 +12,22 @@ TARGET = CAUserTool
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    loginwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    loginwindow.h
 
 FORMS    += \
     login.ui \
-    openusbtoken.ui
+    openusbtoken.ui \
+    unlockmethod.ui
 
 RESOURCES += \
     causertool.qrc
 
 OTHER_FILES += \
     images/ms_icon32.png
+
+DISTFILES += \
+    images/refresh_grey_36x36.png

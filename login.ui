@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>LoginWindow</class>
+ <widget class="QMainWindow" name="LoginWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -211,7 +211,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normalon>:/images/refresh_grey_24x24.png</normalon>
+      <normalon>:/images/refresh_grey_36x36.png</normalon>
      </iconset>
     </property>
     <property name="iconSize">

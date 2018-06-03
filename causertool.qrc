@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>images/ms_icon32.png</file>
-        <file>images/refresh_grey_24x24.png</file>
+        <file>images/refresh_grey_36x36.png</file>
     </qresource>
 </RCC>
