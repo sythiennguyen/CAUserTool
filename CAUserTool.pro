@@ -13,15 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    loginwindow.cpp
+    mainwindow.cpp \
+    logindialog.cpp
 
 HEADERS  += \
-    loginwindow.h
+    mainwindow.h \
+    logindialog.h
 
 FORMS    += \
-    login.ui \
-    openusbtoken.ui \
-    unlockmethod.ui
+    unlockmethod.ui \
+    mainwindow.ui \
+    logindialog.ui
 
 RESOURCES += \
     causertool.qrc
@@ -31,3 +33,4 @@ OTHER_FILES += \
 
 DISTFILES += \
     images/refresh_grey_36x36.png
+
