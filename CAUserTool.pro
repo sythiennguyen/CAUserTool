@@ -14,16 +14,18 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     mainwindow.cpp \
-    logindialog.cpp
+    logindialog.cpp \
+    unlockmethoddialog.cpp
 
 HEADERS  += \
     mainwindow.h \
-    logindialog.h
+    logindialog.h \
+    unlockmethoddialog.h
 
 FORMS    += \
-    unlockmethod.ui \
     mainwindow.ui \
-    logindialog.ui
+    logindialog.ui \
+    unlockmethoddialog.ui
 
 RESOURCES += \
     causertool.qrc
