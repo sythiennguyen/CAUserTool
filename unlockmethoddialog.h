@@ -15,6 +15,9 @@ public:
     explicit UnlockMethodDialog(QWidget *parent = 0);
     ~UnlockMethodDialog();
 
+private slots:
+    void on_label_ChangeInfo_linkActivated(const QString &link);
+
 private:
     Ui::UnlockMethodDialog *ui;
 };

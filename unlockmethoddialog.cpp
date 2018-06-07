@@ -12,3 +12,8 @@ UnlockMethodDialog::~UnlockMethodDialog()
 {
     delete ui;
 }
+
+void UnlockMethodDialog::on_label_ChangeInfo_linkActivated(const QString &link)
+{
+
+}
